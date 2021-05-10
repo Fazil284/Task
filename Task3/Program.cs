@@ -206,7 +206,7 @@ namespace Work3Project
                 Console.WriteLine("3.Question3-Print numbers that are repeating");
                 Console.WriteLine("4.Question4-Numbers in ascending order");
                 Console.WriteLine("5.Question5-Login details Program");
-                Console.WriteLine("6.Question6-Cow and bull Game");
+                //Console.WriteLine("6.Question6-Cow and bull Game");
                 Console.WriteLine("7.Question7-Credit card validation.");
                 Console.WriteLine("8.Exit");
                 Console.WriteLine("Enter the number to run the code");
@@ -228,8 +228,8 @@ namespace Work3Project
                     case 5:
                         Q5();
                         break;
-                    case 6:
-                        break;
+                    //case 6:
+                    //    break;
                     case 7:
                         Q7();
                         break;
@@ -244,8 +244,7 @@ namespace Work3Project
         }
         static void Main(string[] args)
         {
-            PrintMenu();
-            Console.ReadKey();
+            
         }
     }
 }
